@@ -1,0 +1,105 @@
+Match No.,Date (Egypt Time),Team 1,Team 2,Team 1 Code,Team 2 Code,Venue
+1,2026-06-11 23:00:00,Mexico (15),South Africa (60),A1,A2,Mexico City
+2,2026-06-12 06:00:00,Rep. of Korea (25),Czech Rep. (41),A3,A4,Guadalajara
+3,2026-06-12 23:00:00,Canada (30),Bosnia/Herzeg. (65),B1,B2,Toronto
+4,2026-06-13 05:00:00,USA (16),Paraguay (40),D1,D2,Los Angeles
+8,2026-06-13 23:00:00,Qatar (55),Switzerland (19),B3,B4,San Francisco Bay Area
+7,2026-06-14 02:00:00,Brazil (6),Morocco (8),C1,C2,New York/New Jersey
+5,2026-06-14 05:00:00,Haiti (83),Scotland (43),C3,C4,Boston
+6,2026-06-14 08:00:00,Australia (27),Turkey (22),D3,D4,Vancouver
+10,2026-06-14 21:00:00,Germany (10),Curaçao (82),E1,E2,Houston
+11,2026-06-15 00:00:00,Netherlands (7),Japan (18),F1,F2,Dallas
+9,2026-06-15 03:00:00,Ivory Coast (34),Ecuador (23),E3,E4,Philadelphia
+12,2026-06-15 06:00:00,Sweden (38),Tunisia (44),F3,F4,Monterrey
+14,2026-06-15 20:00:00,Spain (2),Cape Verde (69),H1,H2,Atlanta
+16,2026-06-15 23:00:00,Belgium (9),Egypt (28),G1,G2,Seattle
+13,2026-06-16 02:00:00,Saudi Arabia (61),Uruguay (17),H3,H4,Miami
+15,2026-06-16 05:00:00,IR Iran (21),New Zealand (85),G3,G4,Los Angeles
+17,2026-06-16 23:00:00,France (1),Senegal (14),I1,I2,New York/New Jersey
+18,2026-06-17 02:00:00,Iraq (57),Norway (31),I3,I4,Boston
+19,2026-06-17 05:00:00,Argentina (3),Algeria (29),J1,J2,Kansas City
+20,2026-06-17 08:00:00,Austria (24),Jordan (63),J3,J4,San Francisco Bay Area
+23,2026-06-17 21:00:00,Portugal (5),DR Congo (46),K1,K2,Houston
+22,2026-06-18 00:00:00,England (4),Croatia (11),L1,L2,Dallas
+21,2026-06-18 03:00:00,Ghana (74),Panama (33),L3,L4,Toronto
+24,2026-06-18 06:00:00,Uzbekistan (50),Colombia (13),K3,K4,Mexico City
+25,2026-06-18 20:00:00,Czech Rep. (41),South Africa (60),A4,A2,Atlanta
+26,2026-06-18 23:00:00,Switzerland (19),Bosnia/Herzeg. (65),B4,B2,Los Angeles
+27,2026-06-19 02:00:00,Canada (30),Qatar (55),B1,B3,Vancouver
+28,2026-06-19 05:00:00,Mexico (15),Rep. of Korea (25),A1,A3,Guadalajara
+32,2026-06-19 23:00:00,USA (16),Australia (27),D1,D3,Seattle
+30,2026-06-20 02:00:00,Scotland (43),Morocco (8),C4,C2,Boston
+29,2026-06-20 04:30:00,Brazil (6),Haiti (83),C1,C3,Philadelphia
+31,2026-06-20 07:00:00,Turkey (22),Paraguay (40),D4,D2,San Francisco Bay Area
+35,2026-06-20 21:00:00,Netherlands (7),Sweden (38),F1,F3,Houston
+33,2026-06-21 00:00:00,Germany (10),Ivory Coast (34),E1,E3,Toronto
+34,2026-06-21 04:00:00,Ecuador (23),Curaçao (82),E4,E2,Kansas City
+36,2026-06-21 08:00:00,Tunisia (44),Japan (18),F4,F2,Monterrey
+38,2026-06-21 20:00:00,Spain (2),Saudi Arabia (61),H1,H3,Atlanta
+39,2026-06-21 23:00:00,Belgium (9),IR Iran (21),G1,G3,Los Angeles
+37,2026-06-22 02:00:00,Uruguay (17),Cape Verde (69),H4,H2,Miami
+40,2026-06-22 05:00:00,New Zealand (85),Egypt (28),G4,G2,Vancouver
+43,2026-06-22 21:00:00,Argentina (3),Austria (24),J1,J3,Dallas
+42,2026-06-23 01:00:00,France (1),Iraq (57),I1,I3,Philadelphia
+41,2026-06-23 04:00:00,Norway (31),Senegal (14),I4,I2,New York/New Jersey
+44,2026-06-23 07:00:00,Jordan (63),Algeria (29),J4,J2,San Francisco Bay Area
+47,2026-06-23 21:00:00,Portugal (5),Uzbekistan (50),K1,K3,Houston
+45,2026-06-24 00:00:00,England (4),Ghana (74),L1,L3,Boston
+46,2026-06-24 03:00:00,Panama (33),Croatia (11),L4,L2,Toronto
+48,2026-06-24 06:00:00,Colombia (13),DR Congo (46),K4,K2,Guadalajara
+51,2026-06-24 23:00:00,Switzerland (19),Canada (30),B4,B1,Vancouver
+52,2026-06-24 23:00:00,Bosnia/Herzeg. (65),Qatar (55),B2,B3,Seattle
+49,2026-06-25 02:00:00,Scotland (43),Brazil (6),C4,C1,Miami
+50,2026-06-25 02:00:00,Morocco (8),Haiti (83),C2,C3,Atlanta
+53,2026-06-25 05:00:00,Czech Rep. (41),Mexico (15),A4,A1,Mexico City
+54,2026-06-25 05:00:00,South Africa (60),Rep. of Korea (25),A2,A3,Monterrey
+55,2026-06-26 00:00:00,Curaçao (82),Ivory Coast (34),E2,E3,Philadelphia
+56,2026-06-26 00:00:00,Ecuador (23),Germany (10),E4,E1,New York/New Jersey
+57,2026-06-26 03:00:00,Japan (18),Sweden (38),F2,F3,Dallas
+58,2026-06-26 03:00:00,Tunisia (44),Netherlands (7),F4,F1,Kansas City
+59,2026-06-26 06:00:00,Turkey (22),USA (16),D4,D1,Los Angeles
+60,2026-06-26 06:00:00,Paraguay (40),Australia (27),D2,D3,San Francisco Bay Area
+61,2026-06-26 23:00:00,Norway (31),France (1),I4,I1,Boston
+62,2026-06-26 23:00:00,Senegal (14),Iraq (57),I2,I3,Toronto
+65,2026-06-27 04:00:00,Cape Verde (69),Saudi Arabia (61),H2,H3,Houston
+66,2026-06-27 04:00:00,Uruguay (17),Spain (2),H4,H1,Guadalajara
+63,2026-06-27 07:00:00,Egypt (28),IR Iran (21),G2,G3,Seattle
+64,2026-06-27 07:00:00,New Zealand (85),Belgium (9),G4,G1,Vancouver
+67,2026-06-28 01:00:00,Panama (33),England (4),L4,L1,New York/New Jersey
+68,2026-06-28 01:00:00,Croatia (11),Ghana (74),L2,L3,Philadelphia
+71,2026-06-28 03:30:00,Colombia (13),Portugal (5),K4,K1,Miami
+72,2026-06-28 03:30:00,DR Congo (46),Uzbekistan (50),K2,K3,Atlanta
+69,2026-06-28 06:00:00,Algeria (29),Austria (24),J2,J3,Kansas City
+70,2026-06-28 06:00:00,Jordan (63),Argentina (3),J4,J1,Dallas
+73,2026-06-28 23:00:00,,,2A,2B,Los Angeles
+76,2026-06-29 21:00:00,,,1C,2F,Houston
+74,2026-06-30 00:30:00,,,1E,3-ABCDF,Boston
+75,2026-06-30 05:00:00,,,1F,2C,Monterrey
+78,2026-06-30 21:00:00,,,2E,2I,Dallas
+77,2026-07-01 01:00:00,,,1I,3-CDFGH,New York/New Jersey
+79,2026-07-01 05:00:00,,,1A,3-CEFHI,Mexico City
+80,2026-07-01 20:00:00,,,1L,3-EHIJK,Atlanta
+82,2026-07-02 00:00:00,,,1G,3-AEHIJ,Seattle
+81,2026-07-02 04:00:00,,,1D,3-BEFIJ,San Francisco Bay Area
+84,2026-07-02 23:00:00,,,1H,2J,Los Angeles
+83,2026-07-03 03:00:00,,,2K,2L,Toronto
+85,2026-07-03 07:00:00,,,1B,3-EFGIJ,Vancouver
+88,2026-07-03 22:00:00,,,2D,2G,Dallas
+86,2026-07-04 02:00:00,,,1J,2H,Miami
+87,2026-07-04 05:30:00,,,1K,3-DEIJL,Kansas City
+90,2026-07-04 21:00:00,,,W73,W75,Houston
+89,2026-07-05 01:00:00,,,W74,W77,Philadelphia
+91,2026-07-06 00:00:00,,,W76,W78,New York/New Jersey
+92,2026-07-06 04:00:00,,,W79,W80,Mexico City
+93,2026-07-06 23:00:00,,,W83,W84,Dallas
+94,2026-07-07 04:00:00,,,W81,W82,Seattle
+95,2026-07-07 20:00:00,,,W86,W88,Atlanta
+96,2026-07-08 00:00:00,,,W85,W87,Vancouver
+97,2026-07-10 00:00:00,,,W89,W90,Boston
+98,2026-07-10 23:00:00,,,W93,W94,Los Angeles
+99,2026-07-12 01:00:00,,,W91,W92,Miami
+100,2026-07-12 05:00:00,,,W95,W96,Kansas City
+101,2026-07-14 23:00:00,,,W97,W98,Dallas
+102,2026-07-15 23:00:00,,,W99,W100,Atlanta
+103,2026-07-19 01:00:00,,,RU101,RU102,Miami
+104,2026-07-19 23:00:00,,,W101,W102,New York/New Jersey
