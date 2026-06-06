@@ -11,6 +11,12 @@
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://worldcup-26.streamlit.app/)
 
+<div align="center">
+  <a href="(https://worldcup-26.streamlit.app/)">
+    <img src="https://raw.githubusercontent.com/muhammadbonn/wc26-data-stats/main/app_animation.gif" alt="Dashboard Preview" width="100%">
+  </a>
+</div>
+
 
 ---
 
