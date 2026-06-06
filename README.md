@@ -1,24 +1,22 @@
 # FIFA World Cup 2026 Prediction Model
 
+![World Cup Trophy](https://shields.io)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data_Manipulation-150458?logo=pandas)
 ![SciPy](https://img.shields.io/badge/SciPy-Statistical_Modeling-8CAAE6?logo=scipy)
 ![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
-![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?logo=python)
+![Seaborn](https://shields.io)
 ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 
 **Simulating and Predicting the 2026 World Cup Champion using Statistical Analysis**
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://worldcup-26.streamlit.app/)
-
-
 <div align="center">
   <a href="https://worldcup-26.streamlit.app/">
-    <img src="https://raw.githubusercontent.com/muhammadbonn/wc26-data-stats/main/app_animation.gif" alt="Dashboard Preview" width="100%">
+    <img src="app_animation.gif" alt="Dashboard Preview" width="800">
   </a>
 </div>
 
-Check out the live interactive application here: 👉 **[World Cup 2026 Predictor](https://worldcup-26.streamlit.app/)**
+Check out the live interactive application here: **[World Cup 2026 Predictor](https://worldcup-26.streamlit.app/)**
 
 
 
