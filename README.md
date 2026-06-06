@@ -1,11 +1,11 @@
 # FIFA World Cup 2026 Prediction Model
 
-![World Cup Trophy](https://shields.io)
+![World Cup Trophy](https://upload.wikimedia.org/wikipedia/en/d/d3/FIFA_World_Cup_Trophy.svg)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data_Manipulation-150458?logo=pandas)
 ![SciPy](https://img.shields.io/badge/SciPy-Statistical_Modeling-8CAAE6?logo=scipy)
 ![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
-![Seaborn](https://shields.io)
+![Seaborn](https://img.shields.io/badge/Seaborn-Visualization-blue)
 ![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 
 **Simulating and Predicting the 2026 World Cup Champion using Statistical Analysis**
@@ -17,8 +17,6 @@
 </div>
 
 Check out the live interactive application here: **[World Cup 2026 Predictor](https://worldcup-26.streamlit.app/)**
-
-
 
 ---
 
