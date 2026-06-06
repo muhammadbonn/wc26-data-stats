@@ -6,7 +6,7 @@ import os
 from scripts.data_processing import load_and_clean_data, prepare_features
 from scripts.model import generate_tournament_predictions
 from scripts.simulation import simulate_group_stage, simulate_knockout_stage
-from scripts.visualization import plot_tournament_winners, plot_advancing_teams, get_exciting_matches
+from scripts.visualization import plot_tournament_winners, plot_advancing_teams, plot_exciting_matches
 
 # Configure the Streamlit page layout and metadata
 st.set_page_config(page_title="World Cup 2026 Simulator", page_icon="🏆", layout="wide")
@@ -102,8 +102,8 @@ if st.sidebar.button("🚀 Start Prediction & Simulation", type="primary"):
         # Tab 3: Most Exciting Group Stage Matches
         with tab3:
             st.subheader("Most Exciting and Closely Contested Group Stage Matches")
-            df_exciting = get_exciting_matches(df_preds)
-            st.dataframe(df_exciting, use_container_width=True, hide_index=True)
+            fig_exciting = plot_exciting_matches(df_preds)
+            st.plotly_chart(fig_exciting, use_container_width=True)
 
 else:
     # Prompt the user to start the simulation if the button hasn't been clicked yet
