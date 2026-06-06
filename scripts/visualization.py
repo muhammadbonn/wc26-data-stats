@@ -6,7 +6,6 @@ import numpy as np
 def plot_tournament_winners(df_champs):
     """
     Creates an interactive Plotly bar chart for tournament win probabilities.
-    Keeps the same structure but fully in English.
     """
     df_top = df_champs.head(16).copy()
     
@@ -200,7 +199,7 @@ def plot_all_matches(df_preds):
     
     fig.update_layout(
         barmode='stack',
-        title='All Group Stage Matches Predictions',
+        title='📅 All Group Stage Matches Predictions',
         xaxis_title='Probability (%)',
         yaxis_title='',
         template='plotly_white',
