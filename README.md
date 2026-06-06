@@ -3,7 +3,9 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data_Manipulation-150458?logo=pandas)
 ![SciPy](https://img.shields.io/badge/SciPy-Statistical_Modeling-8CAAE6?logo=scipy)
+![Plotly](https://img.shields.io/badge/-Plotly-3F4F75?style=flat&logo=plotly&logoColor=white)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Data_Visualization-3776AB?logo=python)
+![Streamlit](https://img.shields.io/badge/-Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white)
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://worldcup-26.streamlit.app/)
 
