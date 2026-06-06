@@ -5,6 +5,8 @@
 ![SciPy](https://img.shields.io/badge/SciPy-Statistical_Modeling-8CAAE6?logo=scipy)
 ![Seaborn](https://img.shields.io/badge/Seaborn-Data_Visualization-3776AB?logo=python)
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://worldcup-26.streamlit.app/)
+
 **Simulating and Predicting the 2026 World Cup Champion using Statistical Analysis**
 
 ![Top 16 Teams](dashboards/Top_16_Teams_Probability_of_Winning_World_Cup_2026.png)
