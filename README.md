@@ -81,6 +81,22 @@ Predicting a single match is not enough for a tournament format. We used a **Mon
 * **Knockout Stage:** The final 32 teams are placed into a dynamic bracket. The model simulates the knockout matches all the way to the Final to find the ultimate Champion. (Draws in knockout stages trigger a penalty shootout logic weighted by World Cup experience).
 
 ---
+## Structure
+
+```
+├── data/                   # Raw datasets (groups, matches, history)
+├── notebook/               # Initial exploration and data analysis
+│   └── WC26-Notebook.ipynb # Original model experimentation, EDA, and static dashboards
+├── scripts/                # Python modules
+│   ├── data_processing.py  # Data cleaning and feature engineering
+│   ├── model.py            # Poisson distribution prediction engine
+│   ├── simulation.py       # Monte Carlo tournament simulation
+│   └── visualization.py    # Interactive Plotly charts
+├── streamlit_app.py        # Main Streamlit application
+└── requirements.txt        # Project dependencies
+```
+
+---
 
 ## Future Work & Model Tuning
 To further refine the model and explore different scenarios, future iterations will focus on hyperparameter tuning:
