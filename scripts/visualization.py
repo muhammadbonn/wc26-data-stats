@@ -146,3 +146,67 @@ def plot_exciting_matches(df_preds):
     )
     
     return fig
+
+def plot_all_matches(df_preds):
+    """
+    Creates a tall Stacked Bar Chart showing the predictions for ALL group stage matches.
+    """
+    df_all = df_preds.copy()
+    
+    # Sort descending so Match No. 1 appears at the very top of the Plotly horizontal chart
+    df_all = df_all.sort_values(by='Match No.', ascending=False).reset_index(drop=True)
+    
+    # Create a nice label combining Match Number and Teams
+    df_all['Match_Name'] = "M" + df_all['Match No.'].astype(int).astype(str) + ": " + df_all['Team 1'] + " vs " + df_all['Team 2']
+    
+    # Build the Stacked Bar Chart
+    fig = go.Figure()
+    
+    # Trace 1: Team 1 Win Probability
+    fig.add_trace(go.Bar(
+        y=df_all['Match_Name'],
+        x=df_all['T1_Win_%'],
+        name='Team 1 Win',
+        orientation='h',
+        marker=dict(color='#1f77b4'), # Blue
+        text=df_all['T1_Win_%'].apply(lambda x: f"{x:.1f}%"),
+        textposition='inside',
+        insidetextanchor='middle'
+    ))
+    
+    # Trace 2: Draw Probability
+    fig.add_trace(go.Bar(
+        y=df_all['Match_Name'],
+        x=df_all['Draw_%'],
+        name='Draw',
+        orientation='h',
+        marker=dict(color='#7f7f7f'), # Gray
+        text=df_all['Draw_%'].apply(lambda x: f"{x:.1f}%"),
+        textposition='inside',
+        insidetextanchor='middle'
+    ))
+    
+    # Trace 3: Team 2 Win Probability
+    fig.add_trace(go.Bar(
+        y=df_all['Match_Name'],
+        x=df_all['T2_Win_%'],
+        name='Team 2 Win',
+        orientation='h',
+        marker=dict(color='#d62728'), # Red
+        text=df_all['T2_Win_%'].apply(lambda x: f"{x:.1f}%"),
+        textposition='inside',
+        insidetextanchor='middle'
+    ))
+    
+    fig.update_layout(
+        barmode='stack',
+        title='All Group Stage Matches Predictions',
+        xaxis_title='Probability (%)',
+        yaxis_title='',
+        template='plotly_white',
+        height=2000, # Made it very tall so all 72 matches fit comfortably
+        legend_title='Match Outcome',
+        legend=dict(orientation="h", yanchor="bottom", y=1.005, xanchor="right", x=1)
+    )
+    
+    return fig
