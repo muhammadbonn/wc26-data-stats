@@ -6,7 +6,7 @@ import os
 from scripts.data_processing import load_and_clean_data, prepare_features
 from scripts.model import generate_tournament_predictions
 from scripts.simulation import simulate_group_stage, simulate_knockout_stage
-from scripts.visualization import plot_tournament_winners, plot_advancing_teams, plot_exciting_matches
+from scripts.visualization import plot_tournament_winners, plot_advancing_teams, plot_exciting_matches, plot_all_matches
 
 # Configure the Streamlit page layout and metadata
 st.set_page_config(page_title="World Cup 2026 Simulator", page_icon="🏆", layout="wide")
@@ -85,7 +85,12 @@ if st.sidebar.button("🚀 Start Prediction & Simulation", type="primary"):
         st.success("✅ Simulation completed successfully!")
         
         # ================= Display Results (UI Tabs) =================
-        tab1, tab2, tab3 = st.tabs(["🏆 Predicted Champions", "📊 Top 32 Qualifiers", "🔥 Exciting Matches"])
+        tab1, tab2, tab3, tab4 = st.tabs([
+            "🏆 Predicted Champions", 
+            "📊 Top 32 Qualifiers", 
+            "🔥 Exciting Matches",
+            "📅 All Match Predictions"
+        ])
         
         # Tab 1: Tournament Winner Probabilities
         with tab1:
@@ -104,6 +109,13 @@ if st.sidebar.button("🚀 Start Prediction & Simulation", type="primary"):
             st.subheader("Most Exciting and Closely Contested Group Stage Matches")
             fig_exciting = plot_exciting_matches(df_preds)
             st.plotly_chart(fig_exciting, use_container_width=True)
+            
+        # Tab 4: ALL Group Stage Matches
+        with tab4:
+            st.subheader("Complete Group Stage Match Predictions")
+            st.markdown("Scroll down to see the probability breakdown for all 72 group stage matches.")
+            fig_all = plot_all_matches(df_preds)
+            st.plotly_chart(fig_all, use_container_width=True)
 
 else:
     # Prompt the user to start the simulation if the button hasn't been clicked yet
