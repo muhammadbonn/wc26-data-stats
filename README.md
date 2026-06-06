@@ -1,6 +1,6 @@
 # FIFA World Cup 2026 Prediction Model
 
-![World Cup Trophy](https://upload.wikimedia.org/wikipedia/en/d/d3/FIFA_World_Cup_Trophy.svg)
+![FIFA World Cup](https://img.shields.io/badge/FIFA-World_Cup_2026-gold)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data_Manipulation-150458?logo=pandas)
 ![SciPy](https://img.shields.io/badge/SciPy-Statistical_Modeling-8CAAE6?logo=scipy)
